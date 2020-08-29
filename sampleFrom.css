@@ -1,0 +1,93 @@
+.box
+{
+  margin: 10px;
+  margin-top: 20px;
+  background-color: lightcyan;
+  width: 580px;
+  height: 300px;
+  margin-left: 400px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  border:  7px solid olive;
+  border-radius: 20px;
+  float: center;
+}
+input[type=text]
+{
+  padding: 5px;
+  background-color: azure;
+}
+input[type=number]
+{
+  padding: 5px;
+  background-color: lightgrey;
+}
+input[type=email]
+{
+  padding:5px;
+  background-color: lightgray;
+}
+button{
+  margin-top: 7px;;
+  padding: 5px;
+  background-color:peru;
+  border-radius: 8px;
+}
+th,td{
+  width:10%;
+  text-align: center;
+}
+.box2{
+  margin:auto;
+  margin-top:15px;
+  margin:  0 50px 0 50px; 
+  background-color: aliceblue;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  border: 5px solid olive;
+  border-radius: 10px;
+  float: left;
+  padding: 5px;
+  overflow: auto;
+}
+.inside
+{
+  border-radius: 20px;
+  padding: 30px;
+}
+body{
+  background-image: url(D://Tasks/image.jpg);
+}
+
+.label-wrapper
+{
+  display: flex;
+  padding: 5px;
+}
+.label{
+  width: 120px;
+}
+
+.content{
+  padding-left: 10px
+}
+ 
+table,td,th{
+  border: 1px solid black;
+  background-color: darkseagreen;
+  border-collapse: collapse;
+  padding:5px;
+}
+
+h3{
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 20px;
+  background-color: darkslategray;
+  border-radius: 10px;
+  color:white;
+  height: 50px;
+  text-align: center;
+}
+h3:hover{
+  background-color:#ddd;
+  color:black;
+}
